@@ -2,7 +2,7 @@
 alias gs='git status'
 alias gr='git restore'
 alias ga='git add'
-alias gl='git log'
+alias gl='tig'
 alias gc='git checkout'
 alias gcm='git commit -m'
 alias gb='git branch'
@@ -48,7 +48,8 @@ alias ojwprotal='open ~/projects/jwprotal'
 alias ojoywok-web='open ~/projects/joywok-web'
 
 #vim相关配置
-alias vi='vim'
+alias vi='nvim'
+alias vim='nvim'
 
 #nvm相关配置
 alias n10='fnm use 10.24.0'
@@ -65,3 +66,8 @@ alias cpjwprotal-public='cp -rf ~/projects/jwprotal/build/* ~/projects/joywok-pu
 #alias ls -a='lsd -a'
 #alias ll='lsd -l'
 #alias ll -a='lsd -la'
+
+
+#查看
+alias cat='bat'
+
