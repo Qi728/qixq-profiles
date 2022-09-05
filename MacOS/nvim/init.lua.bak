@@ -1,0 +1,20 @@
+-- 使用空格替代 tab
+vim.bo.expandtab = true
+-- 禁止折行显示文本
+vim.o.wrap = false
+-- 显示左侧行号
+vim.o.number = true
+-- 相对行号
+vim.o.relativenumber = true
+-- 高亮光标所在行
+vim.o.cursorline = true
+-- 一tab 显示为2个空格
+vim.o.tabstop = 2
+vim.bo.tabstop = 2
+-- 在 insert 模式下 1 个 tab 代表 2 个空格
+vim.bo.softtabstop = 2
+-- 新行对齐当前行
+vim.bo.autoindent = true
+vim.bo.smartindent = true
+
+source ~/.config/nvim/vim-plug/plugins.vim
